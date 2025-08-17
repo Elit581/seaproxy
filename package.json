@@ -1,16 +1,13 @@
 {
-  "name": "proxy-puppeteer",
+  "name": "seaproxy",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.18.2",
-    "puppeteer-core": "^10.1.0",
-    "chrome-aws-lambda": "^10.1.0",
+    "node-fetch": "^3.3.1",
     "cors": "^2.8.5"
   }
 }
-
-
